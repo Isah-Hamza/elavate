@@ -17,8 +17,8 @@ const Tailor = () => {
 
   return (
     <div className='w-full mt-14 px-10 py-24 bg-[#f8f8f8] text-center' >
-        <p className='text-5xl font-bold leading-normal ' >Tailored Programs to Meet Your <br className='hidden sm:block' /> Needs</p>
-      <div className="max-w-[1300px] mt-14 mx-auto flex justify-between  gap-10">
+        <p className='text-4xl md:text-5xl font-bold leading-normal ' >Tailored Programs to Meet Your <br className='hidden sm:block' /> Needs</p>
+      <div className="max-w-[1300px] mt-14 mx-auto flex flex-col lg:flex-row items-center lg:items-start  justify-between gap-10">
         <Card title={'Career Transition Support'} 
         desc="We provide personalized guidance to help you transition smoothly."
         src="https://framerusercontent.com/images/f6EEiTcKEPRqoYuE7KavYDLSzfk.png" />

@@ -20,7 +20,7 @@ const Footer = () => {
             <p className='text-xl font-bold' >Address</p>
         </div>
         <div className="grid">
-            <p className='text-[10px] opacity-70 font-medium' >Email</p>
+            <p className='text-[10px] opacity-70 font-medium' >EMAIL</p>
             <p className='text-xl font-bold' >Elevatecoachtrain@gmail.com</p>
         </div>
         <div className="grid">

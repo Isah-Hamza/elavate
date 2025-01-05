@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div> 
-      <div className="h-screen bg-black/70">
+      <div className="main-container h-screen bg-black/70">
         <Header />
         <Hero />
         <Empower />
