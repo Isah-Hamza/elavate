@@ -1,8 +1,36 @@
-*{
-    font-family: "Raleway", serif !important;
-    /* outline: 1px solid green; */
+* {
+  font-family: "Raleway", serif !important;
+  /* outline: 1px solid green; */
 }
 
-.app-container{
-    background: url('https://framerusercontent.com/images/YKk9l8sLwikcLbdpAVlcTnMcFA.png');
+.app-container {
+  background: url("https://framerusercontent.com/images/YKk9l8sLwikcLbdpAVlcTnMcFA.png");
+}
+
+@keyframes customBounce {
+  0% {
+    transform: translateY(0px);
+  }
+
+  25% {
+    transform: translateY(10px);
+    /* Adjust the bounce distance as needed */
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
+
+  75% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+    /* Adjust the bounce distance as needed */
+  }
+}
+
+.animate-custom-bounce {
+  animation: customBounce 6s infinite;
 }
